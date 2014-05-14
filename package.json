@@ -1,0 +1,19 @@
+{
+  "name": "example-platformjs",
+  "version": "1.0.0",
+  "description": "Example which describes how to use the 'platform.js' module.",
+  "homepage": "http://npmawesome.com/posts/2014-04-23-platform-js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:npmawesome/example-platformjs.git"
+  },
+  "keywords": [
+    "npmawesome",
+    "platform"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "open": "0.0.5",
+    "platform": "^1.0.0"
+  }
+}

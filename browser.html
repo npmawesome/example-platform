@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>npmawesome.com - platform.js example</title>
+    </head>
+    <body>
+
+        <div id="output"></div>
+
+        <script src="node_modules/platform/platform.js"></script>
+        <script>
+            var $output = document.getElementById('output');
+
+            $output.innerHTML = $output.innerHTML +
+                'Name = ' + platform.name + '<br>' + 
+                'Description = ' + platform.description + '<br>' + 
+                'Version = ' + platform.version + '<br>' + 
+                'OS architecture = ' + platform.os.architecture + '<br>' + 
+                'OS family = ' + platform.os.family;
+        </script>
+    </body>
+</html>
