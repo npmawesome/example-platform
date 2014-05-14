@@ -4,7 +4,11 @@
 
 ## Usage
 
-Install the dependencies first (`npm install`) and then be blinded by two shiny usage examples, a basic one:
+Install the dependencies first (`npm install`).
+
+You will find three examples:
+
+a basic one:
 
     node basic.js
 
@@ -12,7 +16,7 @@ an advanced one
 
     node advanced.js
 
-and a browser version
+and a browser-based version
 
     node browser.js
 
